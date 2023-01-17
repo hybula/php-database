@@ -1,19 +1,3 @@
-# php-database
-A static helper for Nette's Database Explorer used in our smaller projects.
-
-See  `examples/demo.php` to find out how to use this class.
-
-# Introduction
-Fast and easy to use static database management powered by Nette's Database (Explorer).
-Adding connections initiates two different objects, the first is Nette's Core (Connection) and the second is Explorer. It supports fast access to PDO too.
-
-### Requirements
-- PHP 8.1+
-- Composer
-- PDO extension
-
-### Usage
-```php
 <?php
 
 // Autoload using Composer;
@@ -35,11 +19,3 @@ Database::explorer('demo2')->table('table')->select('fieldname');
 
 // In case you want to do some other stuff, let's get the PDO object;
 $pdo = Database::pdo('demo1');
-
-```
-
-### Contribute
-Contributions are welcome in a form of a pull request (PR).
-
-### License
-Mozilla Public License Version 2.0
