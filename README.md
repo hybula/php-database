@@ -12,6 +12,9 @@ Adding connections initiates two different objects, the first is Nette's Core (C
 - Composer
 - PDO extension
 
+### Installation
+Install using Composer with: `composer require hybula/php-database`
+
 ### Usage
 ```php
 <?php
