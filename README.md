@@ -16,6 +16,7 @@ Adding connections initiates two different objects, the first is Nette's Core (C
 Install using Composer with: `composer require hybula/php-database`
 
 ### Usage
+Take a look at how to build queries using Nette Explorer here: https://doc.nette.org/en/database/explorer
 ```php
 <?php
 
